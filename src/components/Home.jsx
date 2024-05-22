@@ -37,11 +37,15 @@ const Home = () => {
         return;
       }
 
+      // const gasPrice = await web3.eth.getGasPrice();
+      // transactionParams.gasPrice = web3.utils.toHex(gasPrice);
+
       await web3.methods
         .setData(inputRef.current.value)
         .send({
           from: account,
-          gas: 3000000,
+          gasPrice: 3000000,
+          // gasPrice:web3.utils.toHex(gasPrice)
         })
         .on("receipt", () => {
           inputRef.current.value = "";

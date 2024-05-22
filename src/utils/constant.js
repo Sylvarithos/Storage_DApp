@@ -1,48 +1,48 @@
-export const address = "0x47472ae8413b98F645742884341CD88e9D10D6B6";
-
+export const address = '0x7bd7c047961e758eac04232f9e7a741b9ba4cdf7';
+ 
 export const abi = [
   {
     inputs: [
       {
-        internalType: "uint256",
-        name: "_data",
-        type: "uint256",
+        internalType: 'uint256',
+        name: '_data',
+        type: 'uint256',
       },
     ],
-    name: "setData",
+    name: 'setData',
     outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
+    stateMutability: 'nonpayable',
+    type: 'function',
   },
   {
     inputs: [],
-    stateMutability: "nonpayable",
-    type: "constructor",
+    stateMutability: 'nonpayable',
+    type: 'constructor',
   },
   {
     inputs: [],
-    name: "data",
+    name: 'data',
     outputs: [
       {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
+        internalType: 'uint256',
+        name: '',
+        type: 'uint256',
       },
     ],
-    stateMutability: "view",
-    type: "function",
+    stateMutability: 'view',
+    type: 'function',
   },
   {
     inputs: [],
-    name: "getData",
+    name: 'getData',
     outputs: [
       {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
+        internalType: 'uint256',
+        name: '',
+        type: 'uint256',
       },
     ],
-    stateMutability: "view",
-    type: "function",
+    stateMutability: 'view',
+    type: 'function',
   },
 ];

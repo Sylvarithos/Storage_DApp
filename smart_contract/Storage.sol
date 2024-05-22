@@ -5,7 +5,7 @@ contract Storage {
     uint public data;
  
     constructor(){
-        data = 0;
+        data = 100;
     }
  
     function setData(uint _data) public {
